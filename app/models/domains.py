@@ -4,7 +4,7 @@ from sqlalchemy import CheckConstraint
  
 db = SQLAlchemy()
  
-VALID_CATEGORIES = ["strength", "cardio", "flexibility", "balance", "plyometrics", "other"]
+VALID_CATEGORIES = ["strength", "cardio",  "balance"]
  
  
 class Exercise(db.Model):
