@@ -3,7 +3,7 @@ from sqlalchemy.exc import IntegrityError
 
 from app.models import db
 from app.models.repository import Repository
-from app.views.presenter import (
+from app.views.serializer import (
     serialize_exercise,
     serialize_exercises,
     serialize_workout,
